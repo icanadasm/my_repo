@@ -4,12 +4,12 @@
 
 function potencia3() {
   var num = document.getElementById("n1");
-  num.value = num.value^3;
+  num.value = num.value*num.value*num.value;
 }
 
-function potencia4() {
+function seno() {
   var num = document.getElementById("n1");
-  num.value = num.value^4;
+  num.value = sin(num.value);
 }
 </script>
 </head>
@@ -21,5 +21,6 @@ function potencia4() {
   <input type="text" id="n1"><p>
 
   <button onclick="potencia3()"> x<sup>3</sup> </button>
+  <button onclick="seno()">sin(x) </button>
  </body>
 </html>
